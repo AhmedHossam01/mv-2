@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <div>
-      <h1>
-      Dr. Norman Borlaug
-    </h1>
-    <p>One of the greatest men of our time!</p>
-    </div>
-    <img src="https://cdn.agrilifetoday.tamu.edu/wp-content/uploads/2020/03/RS42147_Borlaug-Norman-in-Field.jpg" id="main_image" alt="Norman Borlaug in a Wheat field">g
-    <div>
-      <h2>
-        
-      </h2>
-    </div>
+    <main id="main">
+      <div>
+        <h1>Dr. Norman Borlaug</h1>
+        <p id="tribute-info">One of the greatest men of our time!</p>
+      </div>
+      <div id="img-div">
+        <img
+          src="https://cdn.agrilifetoday.tamu.edu/wp-content/uploads/2020/03/RS42147_Borlaug-Norman-in-Field.jpg"
+          alt="Norman Borlaug in a Wheat field"
+          id="image"
+        />
+        <div id="img-caption">He is a great guy</div>
+      </div>
+      <div>
+        <h2 id="title">Here's a time line of Dr. Borlaug's life:</h2>
+        <ul>
+          <li><b>1914</b> - Born in Cresco, Iowa</li>
+          <li>
+            <b>1930</b> Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era
+            program known as the "National Youth Administration"
+          </li>
+          <li>
+            <b>1924</b> Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping
+            starving Americans. "I saw how food changed them", he said. "All of this left scars on me."
+          </li>
+          <li><b>1934</b> - Finishes university and takes a job in the US Forestry Service</li>
+        </ul>
+
+        <div class="footer">
+          If you want to know more information, visit
+          <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Norman_Borlaug">Wikipedia Page</a>
+        </div>
+      </div>
+    </main>
     <!--
 
     Hello Camper!
@@ -32,6 +54,6 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

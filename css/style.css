@@ -1,0 +1,26 @@
+#main {
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+#image {
+  display: block;
+
+  max-width: 100%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
+ul {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.footer {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+}
